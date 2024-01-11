@@ -1,0 +1,14 @@
+.masonryContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+
+.masonry {
+  margin: 2em auto !important;
+}
+
+.images {
+  border-radius: 10px;
+}

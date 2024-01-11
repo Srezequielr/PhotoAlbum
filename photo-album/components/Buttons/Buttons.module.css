@@ -1,0 +1,35 @@
+.buttonsContainer {
+  position: fixed;
+  top: 40%;
+  bottom: 40%;
+  border-radius: 0 5px 5px 0;
+}
+
+.button {
+  background-color: #ffffff56;
+  border-radius: 0 50px 50px 0;
+  padding: 5px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  margin: 10px 0;
+}
+
+.icon {
+  color: black;
+}
+
+@keyframes blink {
+  0% {
+    background-color: white;
+  }
+  50% {
+    background-color: #ffffff56;
+  }
+  100% {
+    background-color: white;
+  }
+}
+
+#tikButton {
+  animation: blink 2s infinite; /* La animación parpadeará cada 1 segundo */
+}
