@@ -7,8 +7,10 @@
     width: 92%;
     padding: 2%;
     border-radius: 30px;
-    justify-content: center;
-    background-color: #ffffff56; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ececec9a; 
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
     backdrop-filter: blur(10px); 
     z-index: 1000;

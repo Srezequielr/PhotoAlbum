@@ -7,7 +7,6 @@ const client = createClient(APIKEY);
 
 export default async function MasonryCom() {
   const photos = await client.photos.curated({ page: 1, per_page: 30 }).then(response => response.photos);
-  console.log(photos);
   return (
     <section className={styles.masonryContainer}>
       <Masonry className={styles.masonry} columns={2} spacing={2}>
