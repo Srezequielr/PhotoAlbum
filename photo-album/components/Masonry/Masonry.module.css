@@ -9,6 +9,27 @@
   margin: 3em auto !important;
 }
 
+.imgContainer {
+  display: inline;
+  background-color: #ececec9a;
+  border-radius: 10px;
+}
+
 .images {
   border-radius: 10px;
+  width: 100%;
+}
+
+.credits {
+  padding: 0.5em;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.link:hover {
+  text-decoration: underline;
 }
