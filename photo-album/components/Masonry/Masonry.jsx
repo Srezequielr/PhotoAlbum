@@ -17,11 +17,10 @@ export default async function MasonryCom() {
       <Masonry className={styles.masonry} columns={2} spacing={2}>
         {photos?.map((photo, index) => {
           return (
-            <div className={styles.imgContainer}>
+            <div className={styles.imgContainer} key={photo.id}>
               <img
                 className={styles.images}
                 src={photo.src.original}
-                key={photo.id}
                 alt={photo.alt}
               />
               <p className={styles.credits}>
