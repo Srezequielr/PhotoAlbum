@@ -12,7 +12,7 @@ export default async function MasonryCom() {
     .then((response) => response.photos);
   return (
     <section className={styles.masonryContainer}>
-      <Masonry className={styles.masonry} columns={2} spacing={2}>
+      <Masonry columns={{xs: 2, sm: 2, md: 3, lg: 4}} className={styles.masonry} spacing={2}>
         {photos?.map((photo, index) => {
           return (
             <div className={styles.imgContainer} key={photo.id}>

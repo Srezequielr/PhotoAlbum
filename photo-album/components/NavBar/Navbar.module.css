@@ -1,18 +1,28 @@
 .navContainer {
-    position: fixed;
-    padding: 1.5rem;
-    top: 2%;
-    left: 2%;
-    display: flex;
-    width: 92%;
-    padding: 2%;
-    border-radius: 30px;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    background-color: #ececec9a; 
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
-    backdrop-filter: blur(10px); 
-    z-index: 1000;
-    font-weight: bold;
+  position: fixed;
+  padding: 1.5rem;
+  top: 2%;
+  left: 2%;
+  width: 92%;
+  padding: 2%;
+  border-radius: 30px;
+  background-color: #ececec9a;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  z-index: 1000;
+  font-weight: bold;
 }
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media screen and (min-width: 900px) {
+  .content {
+    padding: 0 20%;
+  }
+}
+
