@@ -5,8 +5,13 @@
   margin: auto;
 }
 
+.space {
+  height: 30px;
+  padding: 2%;
+}
+
 .masonry {
-  margin: 3em auto !important;
+  margin: auto !important;
 }
 
 .imgContainer {
@@ -33,3 +38,9 @@
 .link:hover {
   text-decoration: underline;
 }
+
+/* @media screen and (min-width: 900px) {
+  .masonryContainer {
+    padding-top: 4rem;
+  }
+} */

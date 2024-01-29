@@ -20,6 +20,11 @@
   justify-content: space-around;
 }
 
+.space{
+  height: 30px;
+  padding: 2%;
+}
+
 @media screen and (min-width: 900px) {
   .content {
     padding: 0 20%;
